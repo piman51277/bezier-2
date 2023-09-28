@@ -4,6 +4,8 @@ A small webapp to explore how bezier curves work.
 
 This is a re-imagining of a previous webapp [link here](https://github.com/piman51277/Bezier), improving the user experience and adding more features.
 
+A live version of this app can be found [here](https://piman.dev/projects/bezier-2)
+
 ![Image of Bezier 2](/media/canvas.png)
 
 # Installation
