@@ -4,28 +4,34 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <canvas id="canvas"></canvas>
-    <div class="point-count-control">
-      <button id="add-point-btn">+</button>
-      <button id="remove-point-btn">-</button>
-    </div>
-    <div class="playback-control">
-      <button id="start-btn">Start</button>
-      <button id="stop-btn">Stop</button>
-      <input
-        id="time-control"
-        type="range"
-        min="0"
-        max="100"
-        step="1"
-        value="0"
-      />
-    </div>
-    <div class="options-control">
-      <input type="checkbox" id="show-inter" checked />
-      <label for="show-inter">Show Intermediates</label>
+    <div>
+      <canvas id="canvas"></canvas>
+      <div id="control-box" class="controls">
+        <div class="point-count-control">
+          <p>Points</p>
+          <button id="add-point-btn">+</button>
+          <button id="remove-point-btn">-</button>
+        </div>
+        <div class="playback-control">
+          <p>Animation</p>
+          <button id="start-btn">Start</button>
+          <button id="stop-btn">Stop</button>
+          <input
+            id="time-control"
+            type="range"
+            min="0"
+            max="100"
+            step="1"
+            value="0"
+          />
+        </div>
+        <div class="options-control">
+          <input type="checkbox" id="show-inter" checked />
+          <label for="show-inter">Show Intermediates</label>
 
-      <button id="reset-btn">Reset</button>
+          <button id="reset-btn">Reset</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

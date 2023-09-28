@@ -6,9 +6,27 @@
   display: inline-block;
 }
 
+#control-box {
+  width: 500px;
+  display: flex;
+}
+
+.controls div {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.controls button {
+  height: 30px;
+}
+
+.controls p {
+  margin: 0;
+}
+
 .point-count-control {
   button {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 }
