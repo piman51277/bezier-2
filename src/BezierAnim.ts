@@ -189,4 +189,14 @@ export class BezierAnim {
     this.draggable.draw();
     this.draggable.enable();
   }
+
+  public setDemoPoints() {
+    this.draggable.addPoint(100, 100);
+    this.draggable.addPoint(400, 100);
+    this.draggable.addPoint(100, 400);
+    this.draggable.addPoint(400, 400);
+
+    this.draggable.draw();
+    
+  }
 }

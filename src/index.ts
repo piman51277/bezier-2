@@ -22,7 +22,7 @@ ready(() => {
     ["remove-point-btn", "click", anim.removePointHandler],
     ["start-btn", "click", anim.startMotionHandler],
     ["stop-btn", "click", anim.stopMotionHandler],
-    ["reset-btn", "click", anim.resetHandler]
+    ["reset-btn", "click", anim.resetHandler],
   ];
 
   for (const [id, event, handler] of binds) {
@@ -56,4 +56,7 @@ ready(() => {
       anim.hideIntermediateHandler();
     }
   });
+
+  //set the demo scene
+  anim.setDemoPoints();
 });
