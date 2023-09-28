@@ -9,7 +9,7 @@ This is a re-imagining of a previous webapp [link here](https://github.com/piman
 # Installation
 
 Download through your method of choice (probably `git clone`)
-Repo comes pre-compiled - just open `dist/index.html` in your browser.
+Repo comes pre-compiled - just open `index.html` in your browser.
 
 # Usage
 
